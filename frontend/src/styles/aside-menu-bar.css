@@ -1,0 +1,28 @@
+.aside-menu-container {
+  display: flex;
+  height: 570px;
+  left: 100%;
+  position: fixed;
+  width: 90%;
+}
+
+.aside-menu-container.is-active {
+  left: 5%;
+}
+
+.aside-menu-link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: calc(50% - 11.25rem);
+  transition: 0.4s;
+  width: 100%;
+}
+
+.aside-menu-link-container, ul {
+  gap: 2.5rem;
+}
+
+.aside-menu-link-container, button {
+  gap: 8rem;
+}
