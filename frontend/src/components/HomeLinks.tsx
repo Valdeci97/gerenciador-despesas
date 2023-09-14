@@ -1,3 +1,5 @@
+import RegisterLink from './RegisterLink';
+
 export default function HomeLinks() {
   return (
     <>
@@ -24,12 +26,7 @@ export default function HomeLinks() {
         </li>
       </ul>
       <div className="flex justify-end items-center desktop-navbar-items">
-        <a
-          href="/register"
-          className="flex justify-center items-center w-225 bg-btngreen h-50 rounded-md text-white text-fgl"
-        >
-          Cadastre-se
-        </a>
+        <RegisterLink />
       </div>
     </>
   );

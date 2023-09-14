@@ -40,6 +40,20 @@
   opacity: 0;
 }
 
+.navbar-container.is-active {
+  z-index: 1;
+}
+
+.is-active-logo {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-navbar-btn.is-active {
+    margin-left: calc(10% - 20px);
+  }
+}
+
 @media screen and (max-width: 768px) {
   .desktop-navbar-items, .desktop-navbar-items *, .desktop-navbar-items > a {
     display: none;
