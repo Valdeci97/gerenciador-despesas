@@ -1,39 +1,35 @@
+import { styles } from './src/utils/tailwind/index';
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.tsx'],
   theme: {
-    backgroundColor: {
-      transparent: 'transparent',
-      btngreen: '#43B27F',
-      theme: {
-        light: '#EDFDF2',
-      },
-      black: '#000',
-    },
-    padding: {
-      30: '3rem',
-      100: '10rem',
-    },
-    height: {
-      80: '8rem',
-      50: '5rem',
-    },
-    screens: {
-      'sc-360': { max: '360px' },
-      'sc-361-440': { min: '361px', max: '440px' },
-    },
     extend: {
+      backgroundColor: {
+        transparent: 'transparent',
+        'green-contrast': styles.colors.greenContrast,
+        light: styles.colors.lightMode,
+      },
       colors: {
-        light: '#3b3b3b',
-        'green-contrast': '#43B27F',
+        light: styles.colors.light,
+        'green-contrast': styles.colors.greenContrast,
       },
       fontSize: {
-        fgl: '2rem',
-        'mobile-menu-link': '2.8rem',
-        'mobile-menu': '2rem',
+        '20px': styles.unitsInREMToPX.twenty,
+        '24px': styles.unitsInREMToPX.twentyFour,
+        '28px': styles.unitsInREMToPX.twentyEigth,
+        '32px': styles.unitsInREMToPX.thirtyTwo,
+      },
+      height: {
+        '80px': styles.unitsInREMToPX.eighty,
+        '50px': styles.unitsInREMToPX.fifty,
+      },
+      padding: {
+        '30px': styles.unitsInREMToPX.thirty,
+        '100px': styles.unitsInREMToPX.oneHundred,
       },
       width: {
-        225: '22.5rem',
+        '225px': styles.unitsInREMToPX.twoHundredTwentyFive,
       },
     },
   },

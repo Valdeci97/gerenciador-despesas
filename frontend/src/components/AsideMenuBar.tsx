@@ -11,25 +11,25 @@ export default function AsideMenuBar({ hamburgerMenuClass }: NavbarHamburgerProp
       <nav className="aside-menu-link-container">
         <ul>
           <li className="text-white">
-            <a href="/" className="text-mobile-menu-link">
+            <a href="/" className="text-28px">
               Início
             </a>
           </li>
           <li className="text-white">
-            <a href="/resources" className="text-mobile-menu-link">
+            <a href="/resources" className="text-28px">
               Recursos
             </a>
           </li>
           <li className="text-white">
-            <a href="/faq" className="text-mobile-menu-link">
+            <a href="/faq" className="text-28px">
               FAQ
             </a>
           </li>
         </ul>
         <RegisterLink />
-        <span className="text-white text-mobile-menu">
+        <span className="text-white text-20px">
           Já tem conta?&nbsp;
-          <a href="/" className="text-mobile-menu text-green-contrast">
+          <a href="/" className="text-20px text-green-contrast">
             Login
           </a>
         </span>

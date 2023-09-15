@@ -5,22 +5,22 @@ export default function HomeLinks() {
     <>
       <ul className="w-full flex items-center justify-evenly desktop-navbar-items">
         <li className="text-light">
-          <a href="/" className="text-fgl">
+          <a href="/" className="text-20px">
             Início
           </a>
         </li>
         <li className="text-light">
-          <a href="/resources" className="text-fgl">
+          <a href="/resources" className="text-20px">
             Recursos
           </a>
         </li>
-        <li className="">
-          <a href="/faq" className="text-light text-fgl">
+        <li className="text-light">
+          <a href="/faq" className="text-20px">
             FAQ
           </a>
         </li>
         <li className="text-light">
-          <a href="/login" className="text-fgl">
+          <a href="/login" className="text-20px">
             Login
           </a>
         </li>
