@@ -5,6 +5,7 @@ export const styles = {
     lightMode: '#EDFDF2',
   },
   unitsInREMToPX: {
+    fourteen: '1.4rem',
     twenty: '2rem',
     twentyFour: '2.4rem',
     twentyEigth: '2.8rem',
@@ -15,4 +16,5 @@ export const styles = {
     oneHundred: '10rem',
     twoHundredTwentyFive: '22.5rem',
   },
+  percentage: { eighty: '80%' },
 };

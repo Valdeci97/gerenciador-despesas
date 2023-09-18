@@ -1,0 +1,6 @@
+.section-container {
+  align-items: center;
+  display: grid;
+  grid-template-rows: 4;
+  justify-items: center;
+}
