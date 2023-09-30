@@ -5,7 +5,7 @@ import Header from '@/components/Header';
 import Providers from '@/components/Providers';
 import { ChildrenProps } from '@/@types/children-props';
 
-import './globals.css';
+import '../globals.css';
 
 export const metadata: Metadata = {
   title: 'Organiza Real',
