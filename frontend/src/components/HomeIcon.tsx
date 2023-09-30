@@ -7,7 +7,7 @@ export default function HomeIcon({
   return (
     <div className="flex justify-between items-center max-w-80%">
       {children}
-      <span className="text-14px text-light max-w-80%">{message}</span>
+      <span className="text-14px text-light dark:text-white max-w-80%">{message}</span>
     </div>
   );
 }

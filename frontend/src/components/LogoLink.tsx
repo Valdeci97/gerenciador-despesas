@@ -1,10 +1,10 @@
-import { NavbarHamburgerProps } from '@/@types/navbar-hamburger-props';
 import Logo from './Logo';
+import { LogoColorProps } from '@/@types/logo-color-props';
 
-export default function LogoLink({ hamburgerMenuClass }: NavbarHamburgerProps) {
+export default function LogoLink({ theme }: LogoColorProps) {
   return (
-    <a className={hamburgerMenuClass} href="/" title="Logo - Voltar ao início">
-      <Logo />
+    <a href="/" title="Logo - Voltar ao início">
+      <Logo theme={theme} />
     </a>
   );
 }

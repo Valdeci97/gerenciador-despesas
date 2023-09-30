@@ -9,12 +9,12 @@ export default function Home() {
   return (
     <main className="min-h-without-scroll">
       <section className="section-container">
-        <h1 className="text-32px text-light mb-30px px-30px">
+        <h1 className="text-32px text-light dark:text-white mb-30px px-30px">
           Conheça&nbsp;
           <span className="text-32px text-green-contrast">praticidades</span> que vão além
           do que planilhas oferecem
         </h1>
-        <p className="text-24px text-light mb-85px px-30px">
+        <p className="text-24px text-light dark:text-white mb-85px px-30px">
           Organize seu dinheiro em tempo real em uma solução completa, prática e segura.
           Tenha todos os seus gastos em um só local, para ter controle total de suas
           finanças.

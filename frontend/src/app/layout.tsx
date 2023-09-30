@@ -2,6 +2,7 @@ import { Spline_Sans } from 'next/font/google';
 import { Metadata } from 'next';
 
 import Header from '@/components/Header';
+import Providers from '@/components/Providers';
 import { ChildrenProps } from '@/@types/children-props';
 
 import './globals.css';
@@ -15,10 +16,17 @@ const splineSans = Spline_Sans({ subsets: ['latin'] });
 
 export default function RootLayout({ children }: ChildrenProps) {
   return (
-    <html lang="pt-BR" className="h-screen">
-      <body className={`${splineSans.className} bg-theme-light`}>
-        <Header />
-        {children}
+    <html
+      lang="pt-BR"
+      className="light"
+      style={{ colorScheme: 'light' }}
+      suppressHydrationWarning
+    >
+      <body className={`${splineSans.className} bg-light dark:bg-dark`}>
+        <Providers>
+          <Header />
+          {children}
+        </Providers>
       </body>
     </html>
   );
