@@ -1,10 +1,10 @@
 import { LogoColorProps } from '@/@types/logo-color-props';
 
-export default function Logo({ theme }: LogoColorProps) {
+export default function Logo({ theme, defaultSize = '60' }: LogoColorProps) {
   return (
     <svg
-      width="60"
-      height="60"
+      width={defaultSize}
+      height={defaultSize}
       viewBox="0 0 60 60"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
