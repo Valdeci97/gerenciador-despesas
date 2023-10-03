@@ -11,6 +11,7 @@ export const styles = {
     fifty: '50%',
     seventyFive: '75%',
     eighty: '80%',
+    eightyFive: '85%',
     ninety: '90%',
   },
   viewPort: {

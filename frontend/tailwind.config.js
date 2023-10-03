@@ -44,12 +44,14 @@ module.exports = {
       },
       gridTemplateRows: {
         'login-form': 'repeat(4, 20% 30% 30% 20%)',
+        'register-form': 'repeat(6, 20% 20% 15% 15% 15% 15%)',
       },
       height: {
         '40px': styles.unitsInREMToPX.forty,
         '80px': styles.unitsInREMToPX.eighty,
         '50px': styles.unitsInREMToPX.fifty,
         '80vh': styles.viewPort.height.eighty,
+        '85%': styles.percentage.eightyFive,
       },
       margin: {
         switcher: 'calc(-30%)',
