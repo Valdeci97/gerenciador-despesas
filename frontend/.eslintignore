@@ -1,3 +1,4 @@
 **/tests/**
 **/vitest*.ts
 **/node_modules/**
+__tests__/**
