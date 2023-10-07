@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import { RegisterLinkProps } from '@/@types/register-link-props';
 
 export default function RegisterLink({
@@ -5,11 +7,11 @@ export default function RegisterLink({
   cssClass = '',
 }: RegisterLinkProps) {
   return (
-    <a
+    <Link
       href="/register"
       className={`flex justify-center items-center w-225px bg-green-contrast h-50px rounded-md text-white text-20px ${cssClass}`}
     >
       {linkText}
-    </a>
+    </Link>
   );
 }

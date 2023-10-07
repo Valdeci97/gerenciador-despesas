@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import RegisterForm from '@/components/RegisterForm';
 
 export default function Register() {
@@ -6,12 +8,12 @@ export default function Register() {
       <RegisterForm />
       <p className="text-20px text-light dark:text-white smdvc-400px:text-14px mddvc-540px:text-16px dvc-brkpt-768px:text-18px">
         Já tenho uma conta.&nbsp;
-        <a
+        <Link
           href="/login"
           className="text-20px text-green-contrast smdvc-400px:text-14px mddvc-540px:text-16px dvc-brkpt-768px:text-18px"
         >
           Quero fazer login!
-        </a>
+        </Link>
       </p>
     </main>
   );

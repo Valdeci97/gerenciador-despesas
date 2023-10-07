@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import RegisterLink from './RegisterLink';
 
 export default function HomeLinks() {
@@ -5,24 +7,24 @@ export default function HomeLinks() {
     <>
       <ul className="w-full flex items-center justify-evenly">
         <li className="text-light dark:text-white">
-          <a href="/" className="text-20px">
+          <Link href="/" className="text-20px">
             Início
-          </a>
+          </Link>
         </li>
         <li className="text-light dark:text-white">
-          <a href="/resources" className="text-20px">
+          <Link href="/resources" className="text-20px">
             Recursos
-          </a>
+          </Link>
         </li>
         <li className="text-light dark:text-white">
-          <a href="/faq" className="text-20px">
+          <Link href="/faq" className="text-20px">
             FAQ
-          </a>
+          </Link>
         </li>
         <li className="text-light dark:text-white">
-          <a href="/login" className="text-20px">
+          <Link href="/login" className="text-20px">
             Login
-          </a>
+          </Link>
         </li>
       </ul>
       <div className="flex justify-end items-center desktop-navbar-items remove-now">

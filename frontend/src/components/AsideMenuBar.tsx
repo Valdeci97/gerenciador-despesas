@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import RegisterLink from './RegisterLink';
 import { NavbarHamburgerProps } from '@/@types/navbar-hamburger-props';
 
@@ -11,27 +13,27 @@ export default function AsideMenuBar({ hamburgerMenuClass }: NavbarHamburgerProp
       <nav className="aside-menu-link-container">
         <ul>
           <li className="text-white dark:text-light">
-            <a href="/" className="text-28px">
+            <Link href="/" className="text-28px">
               Início
-            </a>
+            </Link>
           </li>
           <li className="text-white dark:text-light">
-            <a href="/resources" className="text-28px">
+            <Link href="/resources" className="text-28px">
               Recursos
-            </a>
+            </Link>
           </li>
           <li className="text-white dark:text-light">
-            <a href="/faq" className="text-28px">
+            <Link href="/faq" className="text-28px">
               FAQ
-            </a>
+            </Link>
           </li>
         </ul>
         <RegisterLink />
         <span className="text-white text-20px dark:text-light">
           Já tem conta?&nbsp;
-          <a href="/" className="text-20px text-green-contrast">
+          <Link href="/" className="text-20px text-green-contrast">
             Login
-          </a>
+          </Link>
         </span>
       </nav>
     </aside>

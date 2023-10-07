@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import FormButton from './FormButton';
 import FormIllustration from './FormIllustration';
 import Input from './Input';
@@ -9,12 +11,16 @@ export default function RegisterForm() {
       action=""
       className="grid h-85% w-500px bg-white rounded-lg max-h-[890px] grid-rows-register-form items-center smdvc-400px:w-90% mddvc-540px:w-80% dvc-brkpt-768px:w-75%"
     >
-      <a href="/" title="Logo - Voltar ao início" className="justify-self-center pt-30px">
+      <Link
+        href="/"
+        title="Logo - Voltar ao início"
+        className="justify-self-center pt-30px"
+      >
         <Logo
           theme={{ common: 'fill-dark-mode-common', contrast: 'fill-white' }}
           defaultSize="75"
         />
-      </a>
+      </Link>
       <div className="justify-self-center h-fit">
         <FormIllustration />
       </div>
