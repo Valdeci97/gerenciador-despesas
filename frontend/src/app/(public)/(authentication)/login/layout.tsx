@@ -4,7 +4,7 @@ import { Spline_Sans } from 'next/font/google';
 import Providers from '@/components/Providers';
 import { ChildrenProps } from '@/@types/children-props';
 
-import '../../globals.css';
+import '@/styles/globals.css';
 
 const splineSans = Spline_Sans({ subsets: ['latin'] });
 

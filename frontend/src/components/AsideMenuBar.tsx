@@ -31,7 +31,7 @@ export default function AsideMenuBar({ hamburgerMenuClass }: NavbarHamburgerProp
         <RegisterLink />
         <span className="text-white text-20px dark:text-light">
           Já tem conta?&nbsp;
-          <Link href="/" className="text-20px text-green-contrast">
+          <Link href="/login" className="text-20px text-green-contrast">
             Login
           </Link>
         </span>
